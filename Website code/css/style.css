@@ -1,0 +1,230 @@
+body{
+    background-color:rgb(24, 224, 214) ;
+}
+
+img{
+    margin-left:33% ;
+    margin-right:33%;
+    max-width:50%;
+    max-height:50%;
+    margin-left:1%
+}
+
+iframe{
+    margin-left:33% ;
+    margin-right:33%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+
+.headingleft{
+  color: crimson;
+  text-align: left;
+  font-family: 'Libre Baskerville';
+  text-decoration-color: brown;
+}
+
+.topheadingh1{
+    color:rgb(255, 0, 0);
+    font-family: 'Libre Baskerville';
+    text-align: center;
+}
+
+.para {
+  font-family: 'Libre Baskerville';
+}
+
+
+.topheadingh1{
+ background-color:darkcyan
+}
+
+.topheadingh2{
+  background-color:darkslateblue
+}
+
+.marquee {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: #fefefe;
+  color: #333;
+  border: 1px solid #4a4a4a;
+}
+
+.marquee p {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 2s linear infinite;
+  -webkit-animation: scroll-left 2s linear infinite;
+  animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+  }
+}
+
+/* Create tho equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.Embededform {
+  float: left;
+  width: 60%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.Sololearn {
+ font-size:1vw
+}
+
+.W3Schools {
+  font-size:1vw
+ }
+
+ .location{
+  float: left;
+ }
